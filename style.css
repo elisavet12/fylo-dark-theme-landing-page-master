@@ -1,0 +1,117 @@
+:root {
+  --Dark-Blue-intro: hsl(217, 28%, 15%);
+  --Dark-Blue-mainbg: hsl(218, 28%, 13%);
+  --Dark-Blue-footerbg: hsl(216, 53%, 9%);
+  --Dark-Blue-testimonialsbg: hsl(219, 30%, 18%);
+  --Cyan: hsl(176, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --Light-Red-error: hsl(0, 100%, 63%);
+  --White: hsl(0, 0%, 100%);
+}
+
+header {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0px 80px;
+  background-color: var(--Dark-Blue-mainbg);
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: var(--White);
+  background-image: url(./images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+main {
+}
+
+.intro {
+}
+
+.intro-image {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.intro-heading {
+}
+
+.intro-excerpt {
+  font-size: 20px;
+}
+
+.intro-button {
+  width: 280px;
+  height: 54px;
+  border-radius: 26px;
+  padding: 20px 0px;
+}
+
+.properties {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.property-image {
+}
+
+.property-title {
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.excerpt {
+  font-size: 15px;
+}
+
+.property-excerpt {
+}
+
+.productive {
+}
+
+.productive-image {
+  width: 100%;
+  height: auto;
+}
+
+.productive-heading {
+}
+
+.productive-excerpt {
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.testimonial {
+}
+
+.testimonial-excerpt {
+}
+
+.testimonial-image {
+}
+
+.testimonial-name {
+  font-size: 12px;
+}
+
+.testimonial-subtitle {
+  font-size: 8px;
+}
